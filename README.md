@@ -1,124 +1,142 @@
+# GraphX – Graph Intelligence & Optimization Studio
 
-![banner](Assets/banner.png)
-# Algorithm Visualizer
+<p align="center">
+  <strong>Visualize. Analyze. Optimize.</strong>
+</p>
 
-A better visualization of different algorithms made with React. 
+<p align="center">
+  An interactive platform for understanding graph algorithms, exploring network structures, and solving graph-based problems through visualization.
+</p>
 
-Visit : https://tamimehsan.github.io/AlgorithmVisualizer/
+---
 
-![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=TamimEhsan.AlgorithmVisualizer)
+## About GraphX
 
-Explore more than 30 algorithms with step by step visualization simplifying the learning process and making it more engaging for a better understanding. 
+**GraphX** is an interactive Graph Intelligence & Optimization Studio designed to simplify the learning, visualization, and analysis of graph algorithms.
 
-So far there are these segments  
-- Pathfinder
-- Graph Traversal (BFS / DFS)
-- Shortest Path
-- Minimum Spanning Tree
-- Connectivity
-- Network Flow
-- Prime Numbers
-- Sorting Algorithms
-- N Queen
-- Convex Hull
-- Binary Search Game
-- Binary Search Tree
-- Recursion Tree
-- Turing Machine
-- Game of Life
-- Linked List
+Graphs are fundamental to several real-world applications, including transportation networks, social networks, communication systems, route planning, recommendation engines, and resource optimization.
 
-I have implemented a total of `30+ algorithms` so far. And will try to add more later.  
+GraphX provides a visual environment where users can explore graph structures, understand algorithmic operations, and observe how different algorithms process and solve graph-based problems.
 
-## Algorithms implemented 
+The project aims to bridge the gap between theoretical graph concepts and their practical applications through interactive visualization and algorithmic intelligence.
 
-- Graph Search
-  - DFS
-  - BFS
-  - Dijkstra
-  - A star
-  - Recursive Maze Creation
-- Data Structures
-  - Linked List (insert, delete, search, reverse — singly & doubly)
-- Trees
-  - Binary Search Tree (insert, delete, search with animated re-layout)
-- Graph Traversal
-  - BFS
-  - DFS
-- Single Source Shortest Path
-  - Dijkstra
-  - Bellman-Ford
-- Minimum Spanning Tree 
-  - Kruskal
-  - Prim
-- Connectivity
-  - Connected Components
-  - Strongly Connected Components (Tarjan)
-  - Weakly Connected Components
-- Network Flow
-  - Edmonds-Karp
-  - Ford-Fulkerson
-  - Min Cut
-- Sorting
-  - Bubble sort
-  - Selection sort
-  - Insertion sort
-  - Heap sort
-  - Merge sort
-  - Quick sort
-- Prime Numbers
-  - Sieve or Eratosthenes
-  - Archimedes Spiral
-- N Queen Backtracking
-- Graham Scan for Convex Hull
-- Binary Search
-- Recursion
-  - Fibonacci Number
-  - Binomial Coefficient
-  - Derangement
-  - Fast Exponentiation
-  - Stirling Number of Second Kind
-- Turing Machine
-  - Bitwise NOT
-  - Increment one
-  - 2's Compliment
+## Key Features
 
+- **Interactive Graph Visualization:** Visual representation of graph structures, vertices, and edges.
+- **Algorithm Visualization:** Step-by-step exploration of graph algorithms and their execution.
+- **Graph Traversal:** Demonstration of Breadth-First Search (BFS) and Depth-First Search (DFS).
+- **Shortest Path Analysis:** Visualization of shortest-path algorithms such as Dijkstra's Algorithm.
+- **Network Connectivity Analysis:** Exploration of connected components and graph connectivity.
+- **Graph Optimization:** Demonstration of graph-based optimization techniques.
+- **Educational Interface:** Helps students understand algorithmic behaviour through visual interaction.
 
+*Note: Keep only the features that are implemented in your current version of GraphX.*
 
-### Contribution
-I am not sure if anyone would like to contribute to this project or not. But any kind of contributions are welcomes. Also if you like this please star this repo. It keeps me motivated.
+## Algorithms and Concepts
 
-### Special Features addition timeline
+GraphX focuses on important graph-theoretic concepts, including:
 
-- Commit 16: Added Flip Move animation to inplace sorting components
-- Commit 20: Added Tree Structure
-- 13 Dec 2024: Release v2.0.0: Migrate the project from legacy project to next js with shadcn ui [#3](https://github.com/TamimEhsan/AlgorithmVisualizer/pull/3)
-- Jun 2026: Added Linked List visualizer (singly & doubly) with staged insert/delete animations
-- Jun 2026: Added interactive Graph Traversal (BFS / DFS) built on React Flow
-- Jun 2026: Added Shortest Path (Dijkstra / Bellman-Ford) and Minimum Spanning Tree (Kruskal / Prim) on a shared, reusable graph workspace
-- Jun 2026: Added Connectivity (components / SCC / WCC) and Network Flow (Edmonds-Karp / Ford-Fulkerson, max flow / min cut)
-- Jun 2026: Added a reusable SVG tree component with a Binary Search Tree visualizer, and migrated the Recursion Tree onto it
+| Category | Algorithms / Concepts |
+|---|---|
+| Graph Traversal | BFS, DFS |
+| Shortest Path | Dijkstra's Algorithm |
+| Connectivity | Connected Components |
+| Network Analysis | Bridges, Articulation Points |
+| Graph Representation | Adjacency List, Adjacency Matrix |
+| Optimization | Graph-based optimization techniques |
 
-### Acknowledgement
+## Technology Stack
 
-I took inspirations from the following sources for some of the segments.
-- `Pathfinder`: [The Projects That Got Me Into Google](https://youtu.be/n4t_-NjY_Sg)
-- `Archimedes Spiral for Primes`: [Why do prime numbers make these spirals? ](https://youtu.be/EK32jo7i5LQ)
-- `Recursion tree visualizer`: [Recursion Tree Visualizer](https://github.com/brpapa/recursion-tree-visualizer)
-- `Turing Machine`: [Tursi](https://github.com/schaetzc/tursi)
+The project uses web technologies and algorithmic implementations to provide an interactive graph visualization experience.
 
-### Run locally
+Update this section to reflect the exact technologies and libraries used in your implementation.
 
-Make sure you have node installed in your system. Then run
+- **Programming Language:** JavaScript / TypeScript / C++ (as applicable)
+- **Frontend:** React / HTML / CSS (as applicable)
+- **Styling:** CSS
+- **Development Tools:** Visual Studio Code, Git, GitHub
+
+## Getting Started
+
+Follow these steps to run GraphX locally.
+
+### 1. Clone the repository
+
 ```bash
-npm i
+git clone https://github.com/tan-ishq07/GraphX.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd GraphX
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
 npm run dev
 ```
-This will start the app in `http://localhost:3000/AlgorithmVisualizer`
 
-### Inspiration for next sections
+Open the local URL displayed in your terminal to access the application.
 
-- [University of San Francisco Site](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) 
-- ​[algorithm-visualizer](https://github.com/algorithm-visualizer)
-- [National University of Singapore Site](https://visualgo.net/en)
+*The commands above assume the project uses a standard npm-based frontend setup. Adjust them if your repository uses a different setup.*
 
+## Project Objectives
+
+1. To provide an interactive environment for visualizing graph algorithms.
+2. To simplify the understanding of complex graph-theoretic concepts.
+3. To demonstrate practical applications of graph algorithms.
+4. To explore network structures and connectivity.
+5. To make algorithm learning more intuitive through visual representation.
+
+## Applications
+
+Graph algorithms are widely used in real-world systems, including:
+
+- **Transportation:** Route planning and navigation.
+- **Social Networks:** Community and relationship analysis.
+- **Computer Networks:** Network connectivity and communication paths.
+- **Cybersecurity:** Network structure and vulnerability analysis.
+- **Optimization:** Resource allocation and network optimization.
+- **Emergency Management:** Identifying efficient evacuation routes.
+
+## Future Scope
+
+GraphX can be extended with:
+
+- Advanced shortest-path and minimum spanning tree algorithms.
+- Network flow and matching algorithms.
+- Real-time graph editing and dynamic graph analysis.
+- Advanced optimization techniques.
+- Import and export of custom graph datasets.
+- More real-world graph problem simulations.
+
+## Team Members
+
+| Name | Enrollment Number |
+|---|---|
+| Tanishq Mogha | 992401030007 |
+| Vanshi Singla | 992401030189 |
+| Aashiya Gupta | 992401030204 |
+| Yuvraj Punia | 992401030208 |
+
+## Academic Project
+
+Developed as an academic project at **Jaypee Institute of Information Technology (JIIT)**.
+
+## Repository
+
+GitHub: https://github.com/tan-ishq07/GraphX
+
+---
+
+<p align="center">
+  <strong>GraphX – Turning Graph Theory into Interactive Intelligence.</strong>
+</p>

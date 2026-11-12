@@ -137,4 +137,11 @@ Developed as an academic project at **Jaypee Institute of Information Technology
 
 ## 🔗 Important Links
 
-- **Live Demo:** https://tamime
+- **Live Demo:** https://tamimehsan.github.io/AlgorithmVisualizer/
+- **GitHub Repository:** https://github.com/tan-ishq07/GraphX
+
+---
+
+<p align="center">
+  **GraphX – Turning Graph Theory into Interactive Intelligence.**
+</p>
